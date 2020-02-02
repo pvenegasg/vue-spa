@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app:
+    container_name: vue-spa-boilerplate-production
+    build:
+      context: ../../../../
+      dockerfile: src/infra/docker/production/Dockerfile
+    tty: true
+    ports:
+      - 8080:80

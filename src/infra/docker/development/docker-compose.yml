@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  app:
+    container_name: vue-spa-boilerplate
+    build:
+      context: ../../../../
+      dockerfile: src/infra/docker/development/Dockerfile
+    tty: true
+    ports:
+      - 8888:8888
+    volumes:
+      - ../../../../:/app
+    command: yarn dev
