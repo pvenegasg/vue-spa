@@ -12,5 +12,9 @@ export default {
   data: () => ({
     title: 'Login',
   }),
+
+  mounted() {
+    console.log('gigi');
+  },
 };
 </script>
