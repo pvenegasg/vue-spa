@@ -2,7 +2,8 @@
   "name": "vue-spa",
   "version": "1.0.0",
   "description": "Vue Single Page Application",
-  "main": "index.js",
+  "author": "Piero Venegas <pierovenegasg@gmail.com>",
+  "main": "src/index.js",
   "license": "MIT",
   "scripts": {
     "start": "docker-compose -f src/infra/docker/production/docker-compose.yml up",
